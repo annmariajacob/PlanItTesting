@@ -46,6 +46,5 @@ public class ShopPageDetails {
         Assert.assertTrue(cartPage.setQuantityValidatePrice("Valentine Bear", shopPage.valentineBearPrice, "3"), "Incorrect price/subtotal for Valentine Bear");
 
         Assert.assertTrue(cartPage.validateTotal(), "Incorrect total");
-
     }
 }
