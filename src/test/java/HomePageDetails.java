@@ -14,7 +14,7 @@ WebDriver driver = null;
 
 @BeforeMethod(alwaysRun = true)
     public void setDriver(){
-    System.setProperty("webdriver.chrome.driver", "/Users/annmariajacob/Downloads/chromedriver");
+    System.setProperty("webdriver.chrome.driver", "chromedriver");
     driver = new ChromeDriver();
 }
 @AfterMethod(alwaysRun = true)
