@@ -53,7 +53,7 @@ WebDriver driver = null;
 
         ContactPage contactPage = new ContactPage(driver);
         contactPage.enterForName("John");
-        contactPage.enterEmail("JohnJohn@gmail.com");
+        contactPage.enterEmail("JohnJohn@test.com");
         contactPage.enterMessage("This message is for testing purpose");
         contactPage.clickSubmitButton();
         contactPage.validateSuccessMessage();
