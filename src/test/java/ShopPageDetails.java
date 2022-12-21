@@ -26,7 +26,7 @@ public class ShopPageDetails {
     }
 
     @Test(enabled = true)
-    public void addToCart() {
+    public void addToCartAndValidate() {
         WebDriver testDriver = driver;
         driver.get("https://jupiter.cloud.planittesting.com/");
         HomePage homePage = new HomePage(driver);
